@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Header from "@/components/Header";
 import Providers from "@/components/provider";
+import Searchbar from "@/components/Searchbar";
 
 
 
@@ -36,6 +37,7 @@ export default function RootLayout({ children }) {
         <Providers>
           <Header />
           <Navbar />
+          <Searchbar />
           {children}
         </Providers>
 
